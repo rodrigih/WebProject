@@ -1,0 +1,44 @@
+#navbar
+{
+    background-color:grey;
+    outline:solid thin black;
+    float:left;
+    width:100%;
+}
+
+#leftNav
+{
+    outline:dashed thin cyan;
+    display: inline;
+    float:left;
+    padding: 10px 0px;
+}
+#rightNav
+{
+    outline:dashed thin yellow;
+    display: inline;
+    float:right;
+    padding: 10px 0px;
+}
+
+.navMenu
+{
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    font-family:verdana, Geneva, sans-serif;
+    font-size:20px;
+}
+
+.navMenu:hover
+{
+    background-color:black; 
+}
+
+#searchBox
+{
+    padding:0;
+    margin:0;    
+    border:0;
+    height:20px;
+}
